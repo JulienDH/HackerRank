@@ -20,7 +20,7 @@ finally {
 //Example 2
 //How to evaluate a number
 try {
-    if (my_height/2 === NaN){
+    if (isNaN(my_height/2) == true){
         throw new Error("notANumberError");
     }
     if (my_height > 10){
